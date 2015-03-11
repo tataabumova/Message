@@ -1,0 +1,358 @@
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+a {
+  background: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+dfn {
+  font-style: italic;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+pre {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input {
+  line-height: normal;
+}
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+}
+optgroup {
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
+form {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+input {
+  margin-bottom: 10px;
+  padding: 7px;
+  width: 80%;
+  text-align: center;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+  filter: alpha(opacity=85);
+  opacity: 0.85;
+  border: 2px solid #77b7e2;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+input:focus {
+  outline: none;
+  background-color: #eff5ff;
+}
+textarea {
+  margin-bottom: 10px;
+  padding: 7px;
+  width: 80%;
+  text-align: center;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+  filter: alpha(opacity=85);
+  opacity: 0.85;
+  border: 2px solid #77b7e2;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 0.8em;
+  padding-top: 8px;
+  resize: vertical;
+}
+textarea:focus {
+  outline: none;
+  background-color: #eff5ff;
+}
+.star {
+  color: #5a5a63;
+}
+.btn {
+  width: 80%;
+  padding: 7px;
+  color: #5a5a63;
+  background-image: -moz-linear-gradient(to bottom, #ffffff, #d3deeb);
+  background-image: -o-linear-gradient(to bottom, #ffffff, #d3deeb);
+  background-image: -webkit-linear-gradient(to bottom, #ffffff, #d3deeb);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #d3deeb));
+  filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#FFF, EndColorStr=#D3DEEB)";
+  background-image: linear-gradient(to bottom, #ffffff, #d3deeb);
+  border: 1px solid #BDD2E5;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 1px 1px 0 0 #A2A6AD;
+  -webkit-box-shadow: 1px 1px 0 0 #A2A6AD;
+  box-shadow: 1px 1px 0 0 #A2A6AD;
+}
+.btn:hover:not(:active) {
+  background: -moz-linear-gradient(to bottom, #ffffff, #a6c4e7);
+  background: -o-linear-gradient(to bottom, #ffffff, #a6c4e7);
+  background: -webkit-linear-gradient(to bottom, #ffffff, #a6c4e7);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #d3deeb));
+  filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#FFF, EndColorStr=#D3DEEB)";
+  background: linear-gradient(to bottom, #ffffff, #a6c4e7);
+}
+.btn:active {
+  top: 1px;
+  background: -moz-linear-gradient(to bottom, #e5eff7, #b6cce6);
+  background: -o-linear-gradient(to bottom, #e5eff7, #b6cce6);
+  background: -webkit-linear-gradient(to bottom, #e5eff7, #b6cce6);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #e5eff7), color-stop(1, #b6cce6));
+  filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#E5EFF7, EndColorStr=#B6CCE6)";
+  background: linear-gradient(to bottom, #e5eff7, #b6cce6);
+  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.5) inset, 0 2px 3px rgba(0, 0, 0, 0.5) inset, 0 1px 1px rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.5) inset, 0 2px 3px rgba(0, 0, 0, 0.5) inset, 0 1px 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5) inset, 0 2px 3px rgba(0, 0, 0, 0.5) inset, 0 1px 1px rgba(255, 255, 255, 0.1);
+  outline: none;
+}
+.btn:focus {
+  outline: none;
+}
+/************************************************
+				rating
+************************************************/
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+.fa-star:before {
+  content: "\f005";
+}
+.center {
+  margin: 0 auto;
+  width: 100px;
+  height: 30px;
+}
+.clearfix {
+  content: "";
+  clear: both;
+  display: table;
+}
+.rating {
+  width: 100%;
+}
+.rating input {
+  position: absolute;
+  left: -9999px;
+}
+.rating label {
+  display: inline-block;
+  max-width: 100%;
+  height: 17px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 0 2px;
+  font-weight: 700;
+  float: right;
+  font-size: 17px;
+  line-height: 17px;
+  cursor: pointer;
+  color: rgba(190, 191, 192, 0.72);
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+.rating input + label:hover,
+.rating input + label:hover ~ label {
+  color: rgba(95, 159, 228, 0.8);
+}
+input[name="stars-rating"]:checked ~ label {
+  color: rgba(95, 159, 228, 0.8);
+}
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.3.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Open Sans", "Sans", sans-serif;
+  line-height: 14px;
+  font-size: 14px;
+  vertical-align: middle;
+  text-align: center;
+  background: #d0e8f3;
+}
+.wrapper {
+  width: 350px;
+  margin: 10% auto;
+  background: #cbe3f7;
+  background-image: url(../img/bg-flowers.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: 120% 100%;
+  background-size: 120% 100%;
+  background-position: 32%;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 0 1px 2px 0 #707b85, 0 0 0 10px rgba(148, 197, 241, 0.5);
+  -webkit-box-shadow: 0 1px 2px 0 #707b85, 0 0 0 10px rgba(148, 197, 241, 0.5);
+  box-shadow: 0 1px 2px 0 #707b85, 0 0 0 10px rgba(148, 197, 241, 0.5);
+}
