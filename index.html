@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <title>Message</title>
+  </head>
+  <body>
+	<div class="wrapper">
+	<form method="get">
+		<input class="name" id="name" type="text" name="name" placeholder="Введите ваше имя" autofocus required><br>
+		
+		<input class="email" id="e-mail" type="email" name="Email" placeholder="Введите ваш Email" required><br>
+		
+		<label class="star">Оцените ваше настроение</label><br>
+		<div class="center clearfix">
+			<div class="rating">
+				<input type="radio" name="stars-rating" id="stars-rating-5" value="1">
+				<label for="stars-rating-5"><i class="fa fa-star"></i></label>
+				<input type="radio" name="stars-rating" id="stars-rating-4" value="2">
+				<label for="stars-rating-4"><i class="fa fa-star"></i></label>
+				<input type="radio" name="stars-rating" id="stars-rating-3" value="3">
+				<label for="stars-rating-3"><i class="fa fa-star"></i></label>
+				<input type="radio" name="stars-rating" id="stars-rating-2" value="4">
+				<label for="stars-rating-2"><i class="fa fa-star"></i></label>
+				<input type="radio" name="stars-rating" id="stars-rating-1" value="5">
+				<label for="stars-rating-1"><i class="fa fa-star"></i></label>
+			</div>
+		</div>
+		
+		<textarea class="message" id="message" name="message" rows="4" placeholder="Введите ваш комментарий"></textarea><br>
+		
+		<button class="btn">Отправить</button>
+		
+	</form>
+	</div>
+
+  </body>
+</html>
