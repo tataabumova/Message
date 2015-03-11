@@ -327,6 +327,10 @@ textarea:focus {
   color: #64a7f0;
   color: rgba(95, 159, 228, 0.8);
 }
+input[name="stars-rating"].checked ~ label {
+  color: #64a7f0;
+  color: rgba(95, 159, 228, 0.8);
+}
 input[name="stars-rating"]:checked ~ label {
   color: #64a7f0;
   color: rgba(95, 159, 228, 0.8);

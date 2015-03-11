@@ -39,5 +39,27 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="./js/jquery.placeholder.min.js"></script>
 	<script src="./js/script.min.js"></script>
+	<!--[if lt IE 9]>
+		<script>
+			// JS for IE support
+			$(function() {
+			    // IE 8 doesn't support :checked, so give it the 'checked' class for our
+			    // styles to work
+			    $('[name="stars-rating"]').click(function() {
+			    	$('[name="stars-rating"].checked').each(function(){
+			    		var $this = $(this);
+			    		$this.removeClass('checked');
+			    	});
+			        var $this = $(this);
+			        if($this.is(':checked')) {
+			            $this.addClass('checked');
+			        }
+			        else {
+			            $this.removeClass('checked');
+			        }
+			    });
+			});
+	    </script>
+	<![endif]-->
   </body>
 </html>
