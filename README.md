@@ -4,7 +4,7 @@
 Верстка формы
 
 Демо:
-![alt tag](http://joxi.ru/xAeNXLzs7v6Gry)
+![alt tag](https://github.com/tataabumova/Message/blob/master/img/demo.jpg)
 
 
 
